@@ -1,11 +1,11 @@
 # Udacity-Fullstack-LinuxServerConfig
 
-# Access Instructions
+## Access Instructions
 IP Address: 54.89.82.65  
 SSH port: 2200  
 Web url: http://54.89.82.65/home
 
-# Sofware and Packages Installed
+## Sofware and Packages Installed
 Finger: apt-get install finger  
 Apache: apt-get install apache2  
 Mod_wsgi: apt-get install libapache2-mod-wsgi-py3  
@@ -20,7 +20,7 @@ Sqlalchemy: pip3 install sqlalchemy
 Psycopg2: pip3 install psycopg2  
 Requests: pip3 install requests  
 
-# Configuration Changes
+## Configuration Changes
 ### sshd_config changes:  
   PasswordAuthentication  
   Port  
@@ -39,7 +39,7 @@ Requests: pip3 install requests
   WSGIProcessGroup  
   WSGIScriptAlias  
   
-# Third Party Resources:  
+## Third Party Resources:  
 https://knowledge.udacity.com/  
 https://www.google.com/  
 https://stackoverflow.com  
