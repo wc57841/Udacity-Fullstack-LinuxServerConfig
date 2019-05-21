@@ -21,17 +21,17 @@ Psycopg2: pip3 install psycopg2
 Requests: pip3 install requests  
 
 # Configuration Changes
-sshd_config changes:  
+### sshd_config changes:  
   PasswordAuthentication  
   Port  
   PermitRootLogin  
   
-configured ufw firewall to only allow:  
+### configured ufw firewall to only allow:  
   ssh (port 2200)  
   http (port 80)  
   ntp (port 123)  
   
-changed apache config in /etc/apache2/sites-available/catalof.config  
+### changed apache config in /etc/apache2/sites-available/catalof.config  
   ServerName  
   ServerAlias  
   ServerAdmin  
